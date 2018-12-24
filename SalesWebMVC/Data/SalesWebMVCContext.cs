@@ -4,11 +4,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 
-namespace SalesWebMVC.Models
+namespace Sales.Models
 {
-    public class SalesWebMVCContext : DbContext
+    public class SalesContext : DbContext
     {
-        public SalesWebMVCContext (DbContextOptions<SalesWebMVCContext> options)
+        public SalesContext (DbContextOptions<SalesContext> options)
             : base(options)
         {
         }
