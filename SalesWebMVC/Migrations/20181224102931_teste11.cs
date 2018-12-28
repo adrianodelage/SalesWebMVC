@@ -29,7 +29,7 @@ namespace Sales.Migrations
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
                     Name = table.Column<string>(nullable: true),
                     Email = table.Column<string>(nullable: true),
-                    Birthlarya = table.Column<DateTime>(nullable: false),
+                    BirthDate = table.Column<DateTime>(nullable: false),
                     BaseSalary = table.Column<double>(nullable: false),
                     DepartmentID = table.Column<int>(nullable: true)
                 },

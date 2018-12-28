@@ -58,7 +58,7 @@ namespace Sales.Migrations
 
                     b.Property<double>("BaseSalary");
 
-                    b.Property<DateTime>("Birthlarya");
+                    b.Property<DateTime>("BirthDate");
 
                     b.Property<int?>("DepartmentID");
 
